@@ -1,7 +1,29 @@
-@import "tailwindcss";
- body{
-  font-family:"poppins",sans-serif;
- }
- h1,h2{
-  font-family: "Roboto",sans-serif;
- }
+    body{
+      font-family:"poppins",sans-serif;
+    }
+    h1,h2{
+      font-family: "Roboto",sans-serif;
+    }
+    .main{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: rgb(241, 134, 134);
+      padding: 20px;
+      
+      color: rgb(10, 1, 1);
+      font-size: 20px;
+      font-weight: bold;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    
+    }
+    .main a{
+      text-decoration: none;
+      color: rgb(10, 1, 1);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    
