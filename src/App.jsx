@@ -1,13 +1,10 @@
-import { useState } from 'react'
-
+import Tool from './sections/Tool.jsx'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <Tool />
     </>
   )
 }

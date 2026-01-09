@@ -33,9 +33,14 @@
     .container{
       display: flex;
       margin: 4px auto;
-    
     background-color: aqua;
       height: 100vh;
       font-size: 40px;
       font-weight: bold;
+    }
+    .container img{
+     object-fit: cover;
+     width: 20%;
+     height: 50%;
+      border-radius: 50%;
     }
